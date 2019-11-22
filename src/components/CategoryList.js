@@ -9,7 +9,7 @@ export default function CategoryList(props) {
   return (
     <header className="category-list">
       <div className="category-list__one" onClick={props.button1}>
-        Art
+        Art & Design
       </div>
       <div className="category-list__two" onClick={props.button2}>
         Technology

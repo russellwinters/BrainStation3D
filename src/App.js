@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
-// ss
-import CategoryList from "./components/CategoryList";
+import PopularTopics from "./components/PopularTopics";
 
 function App() {
   return (
     <>
       <Header />
-      <CategoryList />
-      {/* <Charts /> */}
+      <PopularTopics />
     </>
   );
 }

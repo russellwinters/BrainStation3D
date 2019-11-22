@@ -26,7 +26,6 @@ export default class BarChart extends React.Component {
                     maintainAspectRatio: false
                 }}
             />
-             
         </div>
         )
     }

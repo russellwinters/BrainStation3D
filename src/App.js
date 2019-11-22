@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import BarChart from "./components/BarChart"
+import Charts from "./components/Charts"
 
 function App() {
   return (

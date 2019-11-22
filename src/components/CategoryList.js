@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function CategoryList(props) {
-    console.log(props);
+  console.log(props);
   const clickDivs = eventHandler => {
     eventHandler.preventDefault();
     console.log(eventHandler, "this was clicked");

@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function category2() {
+export default function firstcategory() {
   return (
     <div className="category">
-      <h1 className="category-title">Technology</h1>
+      <h1 className="category-title">Popular Topics</h1>
       <div className="category-content">
         <p className="category-content__description">
           The world is changing faster than ever. Researchers estimate that

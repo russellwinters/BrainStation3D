@@ -1,0 +1,14 @@
+.topics {
+  width: calc(100vw - 240px);
+  margin: $center;
+  display: flex;
+  justify-content: space-between;
+
+  .category-list {
+    width: 23.83%;
+  }
+
+  .category {
+    width: 74.58%;
+  }
+}

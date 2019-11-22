@@ -8,22 +8,26 @@ export default function CategoryList(props) {
   };
   return (
     <header className="category-list">
-      <div className="category-list__one" onClick={props.button1}>
+      <div className="category-list__title">Organize a Local TEDx Event</div>
+      <div className="category-list__popular" onClick={props.populartopics}>
+        Popular Topics
+      </div>
+      <div className="category-list__category" onClick={props.button1}>
         Art & Design
       </div>
-      <div className="category-list__two" onClick={props.button2}>
+      <div className="category-list__category" onClick={props.button2}>
         Technology
       </div>
-      <div className="category-list__three" onClick={props.button3}>
+      <div className="category-list__category" onClick={props.button3}>
         Science
       </div>
-      <div className="category-list__four" onClick={props.button4}>
+      <div className="category-list__category" onClick={props.button4}>
         Society
       </div>
-      <div className="category-list__five" onClick={props.button5}>
+      <div className="category-list__category" onClick={props.button5}>
         Health
       </div>
-      <div className="category-list__six" onClick={props.button6}>
+      <div className="category-list__category" onClick={props.button6}>
         Business
       </div>
     </header>

@@ -1,4 +1,5 @@
 import React from "react";
+import buttonImg from "../../assets/go-button.svg";
 
 export default function category4() {
   return (
@@ -12,6 +13,16 @@ export default function category4() {
           words fake words fake words fake words fake words fake words fake
           words fake words fake words fake words
         </p>
+      </div>
+      <div className="category-button">
+        <img
+          className="category-button__img"
+          src={buttonImg}
+          alt="Go to popular topics"
+        />
+        <span className="category-button__explore">
+          Explore Topics of Interest
+        </span>
       </div>
     </div>
   );

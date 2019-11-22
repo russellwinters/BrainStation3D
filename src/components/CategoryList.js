@@ -9,7 +9,7 @@ export default function CategoryList(props) {
   return (
     <header className="category-list">
       <div className="category-list__title">Organize a Local TEDx Event</div>
-      <div className="category-list__category" onClick={props.populartopics}>
+      <div className="category-list__popular" onClick={props.populartopics}>
         Popular Topics
       </div>
       <div className="category-list__category" onClick={props.button1}>

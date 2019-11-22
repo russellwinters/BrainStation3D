@@ -6,11 +6,11 @@ export default class PopularTopics extends Component {
   state = {
     category1: false,
     category2: false,
-    category3: true,
+    category3: false,
     category4: false,
     category5: false,
     category6: false,
-    popularinfo: false
+    popularinfo: true
   };
 
   category1state = () => {

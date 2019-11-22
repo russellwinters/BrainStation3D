@@ -1,4 +1,5 @@
 import React from "react";
+import buttonImg from "../../assets/go-button.svg";
 
 export default function category2() {
   return (
@@ -16,6 +17,16 @@ export default function category2() {
           Join us on stage if you are passionate about anything technology
           related and spread your knowledge!
         </p>
+      </div>
+      <div className="category-button">
+        <img
+          className="category-button__img"
+          src={buttonImg}
+          alt="Go to popular topics"
+        />
+        <span className="category-button__explore">
+          Explore Topics of Interest
+        </span>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ export default function CategoryList() {
   return (
     <header className="category-list">
       <div className="category-list__one" onClick={clickDivs}>
-        Art
+        Art & Design
       </div>
       <div className="category-list__two" onClick={clickDivs}>
         Technology

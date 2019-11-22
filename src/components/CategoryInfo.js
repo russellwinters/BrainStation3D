@@ -4,10 +4,10 @@ import Category2 from "./categories/category2";
 import Category3 from "./categories/category3";
 import Category4 from "./categories/category4";
 import Category5 from "./categories/category5";
+import Category6 from "./categories/category6";
 
 export default class CategoryInfo extends Component {
   render() {
-    console.log(this.props.current);
     if (this.props.current.category1 === true) {
       return <Category1 />;
     }
@@ -22,6 +22,9 @@ export default class CategoryInfo extends Component {
     }
     if (this.props.current.category5 === true) {
       return <Category5 />;
+    }
+    if (this.props.current.category6 === true) {
+      return <Category6 />;
     }
   }
 }

@@ -3,7 +3,7 @@ import React from "react";
 export default function category3() {
   return (
     <div className="category">
-      <h1 className="category-title">Category 3</h1>
+      <h1 className="category-title">Science</h1>
       <div className="category-content">
         <p className="category-content__description">
           fake words fake words fake words fake words fake words fake words fake

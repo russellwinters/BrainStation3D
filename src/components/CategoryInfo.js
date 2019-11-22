@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PopularTopics from "./categories/firstcategory";
 import Category1 from "./categories/category1";
 import Category2 from "./categories/category2";
 import Category3 from "./categories/category3";
@@ -25,6 +26,9 @@ export default class CategoryInfo extends Component {
     }
     if (this.props.current.category6 === true) {
       return <Category6 />;
+    }
+    if (this.props.current.popularinfo === true) {
+      return <PopularTopics />;
     }
   }
 }

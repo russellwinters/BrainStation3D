@@ -1,13 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
-import Charts from "./components/Charts"
+// ss
+import CategoryList from "./components/CategoryList";
 
 function App() {
   return (
     <>
-    <Header />
+      <Header />
+      <CategoryList />
+      {/* <Charts /> */}
     </>
-  )
+  );
 }
 
 export default App;

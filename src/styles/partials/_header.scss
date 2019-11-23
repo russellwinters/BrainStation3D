@@ -1,4 +1,15 @@
 .header {
-  background-color: black;
-  color: white;
+  background-color: white;
+  margin: 0 64px 0 32px;
+  height: 54px;
+  color: BLACK;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-nav {
+    &__link {
+      margin-left: 40px;
+    }
+  }
 }

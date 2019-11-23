@@ -7,11 +7,14 @@ export default function category5() {
       <h1 className="category-title">Health</h1>
       <div className="category-content">
         <p className="category-content__description">
-          fake words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words
+          Health is wealth - however busy people who want to stay on top of
+          healthcare industry developments, innovations, and the latest news may
+          not be devoting or educating themselves as much as they should be.
+        </p>
+        <p className="category-content__description">
+          We want to hear about your expertise regarding anything health
+          related, whether it be diet, disease, mental health... and the list
+          goes on - apply to be a speaker on our TEDx stage
         </p>
       </div>
       <div className="category-button">

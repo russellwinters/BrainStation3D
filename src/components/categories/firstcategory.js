@@ -7,15 +7,18 @@ export default function firstcategory() {
       <h1 className="category-title">Popular Topics</h1>
       <div className="category-content">
         <p className="category-content__description">
-          The world is changing faster than ever. Researchers estimate that
-          technology and automation will replace half of existing jobs over the
-          next decade. Technology affects everyone because whether or not we
-          work at a technology company, we’re still affected by the digital
-          world.
+          Think of TEDx as hosting an awesome dinner party, with great food,
+          inspirational videos, brilliant speakers and mind-blowing
+          conversation. By organizing a TEDx event, you will have the
+          opportunity to create a truly unique event that will unleash new
+          ideas, inspire and inform.
         </p>
         <p className="category-content__description">
-          Join us on stage if you are passionate about anything technology
-          related and spread your knowledge!
+          A TEDx event is a local gathering where live TED-like talks and
+          performances are shared with the community. TEDx events are fully
+          planned and coordinated independently, on a community-by-community
+          basis. The content and design of each TEDx event is unique and
+          developed independently, but all of them have features in common.
         </p>
       </div>
       <div className="category-button">

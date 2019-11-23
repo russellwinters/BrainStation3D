@@ -3,38 +3,44 @@ import { Bar } from "react-chartjs-2";
 import { Link } from "react-router-dom";
 
 export default class BarChart extends React.Component {
+  render() {
+    return (
+      <div className="chart">
+        <h1>Total Tag Counts By Category</h1>
 
-    render() {
-        
-            return (
-                <div className="chart">
-                <h1>Total Tag Counts By Category</h1>
+        <Bar
+          height={150}
+          width={300}
+          data={this.props.data}
+          options={{
+            redraw: true,
+            maintainAspectRatio: false,
+            scales: {
+              xAxes: [
+                {
+                  display: true
+                }
+              ],
+              yAxes: [
+                {
+                  display: true
+                }
+              ]
+            }
+          }}
+        />
 
-                <Bar 
-                    height = {150}
-                    width = {300}
-                    data={this.props.data}
-                    options={{
-                        redraw: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            xAxes: [{
-                                display: true
-                            }],
-                            yAxes: [{
-                                display: true
-                            }]
-                          }
-                    }}
-                    
-                />
-           
-                <Link className = "button" to = "/"> Categories</Link>
-                <Link  className = "button" to = "/medianviews">Median Views</Link>
-                <Link  className = "button"to = "/median">Median Duration</Link>
-               
-            </div>
-            ) 
-        }
-        
+        <Link className="button" to="/">
+          {" "}
+          Categories
+        </Link>
+        <Link className="button" to="/medianviews">
+          Median Views
+        </Link>
+        <Link className="button" to="/median">
+          Median Duration
+        </Link>
+      </div>
+    );
+  }
 }

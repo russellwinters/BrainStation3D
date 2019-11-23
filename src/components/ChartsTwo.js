@@ -9,13 +9,16 @@ export default class BarChart extends React.Component {
         
             return (
                 <div className="chart">
-                <h1>Bar Chart</h1>
+                <h1>Median Talk Duration</h1>
                 <Bar className = "test"
+                    height = {300}
+                    width = {300}
                     data={this.props.data}
                     width={500}
                     height={400}
                     options={{
                         redraw: true,
+                        maintainAspectRatio: false,
                         scales: {
                             xAxes: [{
                                 display: true
@@ -24,7 +27,7 @@ export default class BarChart extends React.Component {
                                 ticks: {
                                     beginAtZero:true,
                                     min: 0,
-                                    max: 60  
+                                    max: 20
                                 }
                               }]
                           }
@@ -33,9 +36,9 @@ export default class BarChart extends React.Component {
                     
                 />
            
-                <Link to = "/">Test</Link>
-                <Link to = "/median">Test2</Link>
-                <Link to = "/medianviews">Test2</Link>
+                <Link className = "button" to = "/"> Categories</Link>
+                <Link  className = "button" to = "/medianviews">Median Views</Link>
+                <Link  className = "button"to = "/median">Median Duration</Link>
             </div>
             ) 
         }

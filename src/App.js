@@ -9,6 +9,7 @@ import medianviews from "./data/medianviews";
 import topcategoriesdata from "./data/topcategoriesdata";
 import { Route, Switch } from "react-router-dom";
 import Hero from "./components/Hero";
+import CreateNew from "./components/CreateNew";
 function App() {
   return (
     <>
@@ -32,6 +33,7 @@ function App() {
           render={props => <MedianViews data={medianviews} {...props} />}
         />
       </Switch>
+      <CreateNew />
     </>
   );
 }

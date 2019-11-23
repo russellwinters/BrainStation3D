@@ -9,7 +9,7 @@ export default class BarChart extends React.Component {
         <h1>Median Views Per Talk</h1>
         <Bar
           data={this.props.data}
-          height={150}
+          height={100}
           width={300}
           options={{
             redraw: true,

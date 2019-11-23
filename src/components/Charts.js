@@ -1,8 +1,9 @@
-import React from 'react';
-import { Bar } from 'react-chartjs-2';
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Bar } from "react-chartjs-2";
+import { Link } from "react-router-dom";
 
 export default class BarChart extends React.Component {
+
     render() {
         
             return (
@@ -10,7 +11,7 @@ export default class BarChart extends React.Component {
                 <h1>Total Tag Counts By Category</h1>
 
                 <Bar 
-                    height = {300}
+                    height = {150}
                     width = {300}
                     data={this.props.data}
                     options={{

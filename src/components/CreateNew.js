@@ -19,14 +19,14 @@ export default class CreateNew extends React.Component {
       <>
         <div onClick={this.toggleClass} className="add-post">
           <button className="add-post__icon" src="">
-            APPLY
+            APPLY TO BE A SPEAKER
           </button>
         </div>
         <div
           className="modal"
           style={{
-            display: this.state.active
-            // position: "fixed"
+            display: this.state.active,
+            position: "fixed"
           }}
         >
           <div className="modal__content">

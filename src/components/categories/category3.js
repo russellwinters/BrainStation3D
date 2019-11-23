@@ -7,11 +7,13 @@ export default function category3() {
       <h1 className="category-title">Science</h1>
       <div className="category-content">
         <p className="category-content__description">
-          fake words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words fake words fake words fake
-          words fake words fake words fake words
+          Research and science is always changing, whether it is natural
+          sciences, social sciences, behavioural sciences or applied sciences -
+          there is endless information to be taught and shared.
+        </p>
+        <p className="category-content__description">
+          TEDx is interested in exploring all aspects of science for continuous
+          learning, not only on our stage but for our future.
         </p>
       </div>
       <div className="category-button">
